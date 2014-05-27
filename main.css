@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	background-image: url("img/ground.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed ;
+}
+body{
+	margin: 0% 10%;
+	border-radius: 4px;
+	min-width: 900px;
+}
+header{
+	background-image: url("img/gs_logo_cropped.png");
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	background-size: 54px 71px;
+	background-color: rgba(240, 240, 241, .34);
+	padding: 0px 0px 0px 54px;
+	margin-top: 10px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(31, 31, 31);
+}
+.container{
+	margin-top: 41px;
+}
+.container p{
+	background-color: rgba(240, 240, 241, .4);
+	padding: 6px;
+	font-family: "Big Caslon", "Rockwell", Helvetica;
+	font-size: 100%;
+	color: #1C3D7F;
+	text-align: center;
+	border-radius: 1px;
+	margin-bottom: 0px;
+}
+.container em{
+	padding: 2px 4%;
+	margin: 3%;
+	border-radius: 2px;
+	border: 1px solid #D4E2F5;
+	background: linear-gradient(#D4E2F5,#DCE2F7);
+}
+.container em:hover{
+	border: 1px solid rgb(88, 49, 0);
+}
+
+#under {
+	background-color: rgba(240, 240, 241, .54);
+	border-radius: 5px;
+}
+.imgs {
+	margin: 20px 0;
+	padding: 5px; 
+}
+.imgs p{
+	text-align: center;
+	font-family: Garamond, "Big Caslon", Helvetica;
+	font-size: 23px;
+	color: #1C3D7F;
+	margin: 15px 0;
+	font-weight: bold;
+}
+.imgs img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	width: 450px;
+	padding: 7px;
+	background-color: rgba(235, 235, 235, .8);
+}
+.visit {
+	border: 2px solid rgb(236, 167, 79);
+	border-radius: 2px;
+	background: linear-gradient(#FFA84A, #F8B94A);
+	padding: 10px;
+	margin: 20px 396px;
+}
+.visit p{
+	text-align: center;
+	font-family: Garamond, Verdana;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.visit:hover{
+	border: 2px solid rgb(129, 129, 248);
+}
+.pics{
+	text-align: center;
+	font-family: Garamond, "Big Caslon", Helvetica;
+	font-size: 23px;
+	color: #1C3D7F;
+	margin: 15px 102px;
+	border-bottom: 2px solid #1C3D7F;
+}
+.pics {
+	padding-bottom: 10px;
+}
+fieldset{
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.items{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.items img{
+	height: 400px;
+	width: 400px;
+	margin: 10px;
+	padding: 7px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: rgba(235, 235, 235, .8);
+} 
+footer{
+	border-top: 1px solid grey;
+	background-color: rgba(255, 197, 47, 0.7);
+	border-radius: 3px;
+}
+.contain{
+	width: 100%;
+}
+.contain p{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 13px;
+	color: #000000;
+	padding: 8px;
+}
+.contain p em{
+	padding: 6px;
+	font-family: "Big Caslon", "Rockwell", Helvetica;
+	font-size: 18px;
+	color: #1C3D7F;
+}
+#adress{
+	font-size: 11px;
+	vertical-align: middle;
+	padding: 10px;
+}
+.info {
+	float: left;
+	width: 35%;
+}
+.social{
+	float: right;
+	width:35%;
+}
+.social img{
+	height: 27px;
+	width:27px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.supply{
+}
+.supply a{
+	text-decoration: none;
+	color: #000000;
+}
+.supply a:hover{
+	text-decoration: underline;
+}
