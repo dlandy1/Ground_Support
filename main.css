@@ -49,7 +49,7 @@ table {
 }
 
 html {
-	background-image: url("Img/ound.png");
+	background-image: url("img/ground.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment:fixed ;
@@ -60,7 +60,7 @@ body{
 	min-width: 900px;
 }
 header{
-	background-image: url("Img/gs_logo_cropped.png");
+	background-image: url("img/gs_logo_cropped.png");
 	background-position: 0% 0%;
 	background-repeat: no-repeat;
 	background-size: 54px 71px;
